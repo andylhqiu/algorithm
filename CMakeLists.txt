@@ -3,5 +3,5 @@ project(algorithm)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES main.cpp ballthrow/ballthrow.cpp ballthrow/ballthrow.h)
+set(SOURCE_FILES main.cpp ballthrow/ballthrow.cpp ballthrow/ballthrow.h common/comm.h)
 add_executable(algorithm ${SOURCE_FILES})

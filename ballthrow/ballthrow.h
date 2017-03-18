@@ -6,15 +6,24 @@
 #define ALGORITHM_BALLTHROW_H
 
 
-#include <iostream>
-#include <sstream>
-#include <stack>
-#include <vector>
+#include "../common/comm.h"
 
 
-using namespace std;
+
+
 
 int totalScore(const vector<string> &blocks, int n);
+
+
+
+
+
+
+
+
+
+
+
 
 
 
