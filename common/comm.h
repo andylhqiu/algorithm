@@ -12,6 +12,10 @@
 #include <sstream>
 #include <stack>
 #include <vector>
+#include <list>
+
+
+#include <algorithm>
 
 
 using namespace std;

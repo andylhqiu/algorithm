@@ -1,7 +1,7 @@
 
 
 #include "ballthrow/ballthrow.h"
-
+#include "add2numlinked/add_2_num_linked.h"
 
 
 
@@ -14,5 +14,8 @@ int main() {
 
     cout << "The total score is \n" <<  totalScore(vblocks, vblocks.size()) << endl;
 
+
+    //
+    test_add2num_linked();
     return 0;
 }
