@@ -65,20 +65,20 @@ bool test_add2num_linked()
     list<int> n2;
     list<int> sum;
 
-    n1.push_front(9);
-    n1.push_front(8);
-    n1.push_front(4);
-    n1.push_front(2);
+    n1.push_back(2);
+    n1.push_back(4);
+    n1.push_back(8);
+    n1.push_back(9);
 
-    n2.push_front(4);
-    n2.push_front(6);
-    n2.push_front(5);
+    n2.push_back(5);
+    n2.push_back(6);
+    n2.push_back(4);
 
-    sum.push_front(1);
-    sum.push_front(0);
-    sum.push_front(3);
-    sum.push_front(0);
-    sum.push_front(7);
+    sum.push_back(7);
+    sum.push_back(0);
+    sum.push_back(3);
+    sum.push_back(0);
+    sum.push_back(1);
 
     list<int> add = add2num_linked(n1, n2);
 
