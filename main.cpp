@@ -2,7 +2,7 @@
 
 #include "ballthrow/ballthrow.h"
 #include "add2numlinked/add_2_num_linked.h"
-
+#include "reverse_linkedlist/reverse_linkedlist.h"
 
 
 int main() {
@@ -17,5 +17,8 @@ int main() {
 
     //
     test_add2num_linked();
+
+    //
+    test_reverse_linkedlist();
     return 0;
 }
