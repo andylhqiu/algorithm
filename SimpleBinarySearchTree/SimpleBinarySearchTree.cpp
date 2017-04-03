@@ -63,6 +63,27 @@ BST createSimpleBST(int *vals, int n)
     return t;
 }
 
+void destroyBST(BST t)
+{
+    if(NULL != t->left)
+    {
+        destroyBST(t->left);
+        t->left = NULL;
+    }
+    else if(NULL != t->right)
+    {
+        destroyBST(t->right);
+        t->right = NULL;
+    }
+    else
+    {
+        delete(t);
+        t = NULL;
+    }
+
+    return;
+}
+
 void findNodeWithTrack(BST t, vector<BSTNode*> &vec, int node)
 {
 
@@ -123,6 +144,17 @@ int distBinarySearchTreeNodes(int *values, int n, int node1, int node2)
     cout << "vec1 size = " << vec1.size() << endl;
     cout << "vec2 size = " << vec2.size() << endl;
 
+    if(vec1.size() <= 0)
+    {
+        cout << "node1 not found ! error. node1 = " << node1 << endl;
+        return ERR_DISTANCE;
+    }
+    if(vec2.size() <= 0)
+    {
+        cout << "node2 not found ! error. node2 = " << node2 << endl;
+        return ERR_DISTANCE;
+    }
+
     int i = 0;
     for(; i<vec1.size() && i<vec2.size(); i++)
     {
@@ -135,6 +167,8 @@ int distBinarySearchTreeNodes(int *values, int n, int node1, int node2)
 
     dist = vec1.size() - i + vec2.size() - i ;
 
+    destroyBST(t);
+
     return dist;
 }
 
@@ -144,6 +178,7 @@ void testDistBST()
 {
     int tarr1[] = {5,3,6,1,2,4};
     int tnds1[] = {2,4};
+    int tnds12[] = {6, 10};
 
     struct Test
     {
@@ -162,7 +197,8 @@ void testDistBST()
         }
     };
 
-    Test tests[] = {Test(3, tarr1, sizeof(tarr1)/sizeof(int), tnds1)};
+    Test tests[] = {Test(3, tarr1, sizeof(tarr1)/sizeof(int), tnds1),
+                    Test(-1, tarr1, sizeof(tarr1)/sizeof(int), tnds12)};
 
     int ret = -1;
     for(int i=0; i<sizeof(tests)/sizeof(Test); i++)
