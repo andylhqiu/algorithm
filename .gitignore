@@ -1,7 +1,4 @@
 # Created by .ignore support plugin (hsz.mobi)
-.idea/algorithm.iml
-.idea/dbnavigator.xml
-.idea/misc.xml
-.idea/modules.xml
-.idea/workspace.xml
+
 cmake-build-debug/
+.idea/
