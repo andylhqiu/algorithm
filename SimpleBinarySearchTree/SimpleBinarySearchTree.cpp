@@ -63,6 +63,41 @@ BST createSimpleBST(int *vals, int n)
     return t;
 }
 
+void findNodeWithTrack(BST t, vector<BSTNode*> &vec, int node)
+{
+
+    vec.clear();
+
+    if(NULL == t)
+    {
+        return;
+    }
+
+    BSTNode * nd = t;
+    while(NULL != nd)
+    {
+        vec.push_back(nd);
+        if(nd->value > node)
+        {
+            nd = nd->left;
+        }
+        else if(node > nd->value)
+        {
+            nd = nd->right;
+        }
+        else
+        {
+            return;
+        }
+
+    }
+    //not found
+    vec.clear();
+
+    return;
+
+}
+
 /*
  * the min distance between two nodes in a binary search tree
  * values: array of nodes
@@ -79,6 +114,26 @@ int distBinarySearchTreeNodes(int *values, int n, int node1, int node2)
     }
 
     BST t = createSimpleBST(values, n);
+
+    vector<BSTNode *> vec1;
+    vector<BSTNode *> vec2;
+
+    findNodeWithTrack(t, vec1, node1);
+    findNodeWithTrack(t, vec2, node2);
+    cout << "vec1 size = " << vec1.size() << endl;
+    cout << "vec2 size = " << vec2.size() << endl;
+
+    int i = 0;
+    for(; i<vec1.size() && i<vec2.size(); i++)
+    {
+        if(vec1[i] == vec2[i])
+        {
+            continue;
+        }
+        break;
+    }
+
+    dist = vec1.size() - i + vec2.size() - i ;
 
     return dist;
 }
