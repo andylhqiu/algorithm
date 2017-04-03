@@ -3,7 +3,7 @@
 #include "ballthrow/ballthrow.h"
 #include "add2numlinked/add_2_num_linked.h"
 #include "reverse_linkedlist/reverse_linkedlist.h"
-
+#include "SimpleBinarySearchTree/SimpleBinarySearchTree.h"
 
 int main() {
     std::cout << "In ball throwing program." << std::endl;
@@ -16,9 +16,13 @@ int main() {
 
 
     //
-    test_add2num_linked();
+    //test_add2num_linked();
 
     //
-    test_reverse_linkedlist();
+    //test_reverse_linkedlist();
+
+    testDistBST();
+
+
     return 0;
 }
