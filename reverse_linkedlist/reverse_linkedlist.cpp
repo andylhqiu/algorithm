@@ -93,7 +93,7 @@ bool  test_reverse_linkedlist()
     Node * h = new Node();
     h->next = nullptr;
 
-    cout << "\n In test_reverse_linkedlist()...  begin." << endl;
+    func_begin(__FUNCTION__);
     vector<int> v = {1,2,3,4,5,6};
     for(int i=0; i<v.size(); i++)
     {

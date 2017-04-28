@@ -48,7 +48,7 @@ Node * intersection_2linkedlist(Node * h1, Node * h2)
 
 bool test_intersection_2linkedlist()
 {
-    cout << "In test_intersection_2linkedlist() begin." << endl;
+    func_begin(__FUNCTION__);
 
     vector<int> vec1 = {1,2,3,4};
     vector<int> vec2 = {4,5,6};

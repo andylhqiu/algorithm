@@ -65,6 +65,7 @@ bool test_add2num_linked()
     list<int> n2;
     list<int> sum;
 
+    func_begin(__FUNCTION__);
     n1.push_back(2);
     n1.push_back(4);
     n1.push_back(8);

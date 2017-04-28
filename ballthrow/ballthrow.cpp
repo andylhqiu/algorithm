@@ -17,6 +17,7 @@ int totalScore(const vector<string> &blocks, int n)
     int top = 0;
     stack<int> s;
 
+    func_begin(__FUNCTION__);
     for(int i=0; i<n; i++)
     {
         stmp = blocks[i];
