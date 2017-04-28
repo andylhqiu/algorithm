@@ -6,6 +6,7 @@
 #include "SimpleBinarySearchTree/SimpleBinarySearchTree.h"
 #include "intersection_2linkedlist/intersection_2linkedlist.h"
 #include "backwards_linkedlist/backwards_linkedlist.h"
+#include "circle_linkedlist/circle_linkedlist.h"
 
 
 int main() {
@@ -29,6 +30,8 @@ int main() {
     test_intersection_2linkedlist();
 
     test_backwards_linkedlist();
+
+    test_intersect_circle_linkedlist();
 
     return 0;
 }

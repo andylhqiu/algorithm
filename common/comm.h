@@ -21,11 +21,15 @@
 using namespace std;
 
 
+void  func_begin(const char * func_name);
 
 
 
+inline void  func_begin(const char * func_name)
+{
+    cout << "-------------------------------------------------------------\n" << func_name <<endl << "-------------------------------------------------------------\n" << endl;
 
-
+}
 
 
 
