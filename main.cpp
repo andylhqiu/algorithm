@@ -19,9 +19,9 @@ int main() {
     //test_add2num_linked();
 
     //
-    //test_reverse_linkedlist();
+    test_reverse2_linkedlist();
 
-    testDistBST();
+    //testDistBST();
 
 
     return 0;

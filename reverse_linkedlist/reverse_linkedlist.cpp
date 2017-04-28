@@ -5,7 +5,6 @@
 #include "reverse_linkedlist.h"
 
 
-
 Node * reverse(Node * head)
 {
     Node * p = head;
