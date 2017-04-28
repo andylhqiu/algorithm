@@ -7,6 +7,7 @@
 #include "intersection_2linkedlist/intersection_2linkedlist.h"
 #include "backwards_linkedlist/backwards_linkedlist.h"
 #include "circle_linkedlist/circle_linkedlist.h"
+#include "reverse_btree/reverse_btree.h";
 
 
 int main() {
@@ -33,5 +34,6 @@ int main() {
 
     test_intersect_circle_linkedlist();
 
+    test_reverse_binarytree();
     return 0;
 }
