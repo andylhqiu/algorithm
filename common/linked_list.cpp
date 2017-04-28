@@ -2,6 +2,7 @@
 // Created by QiuLihua on 2017/4/28.
 //
 
+
 #include "linked_list.h"
 
 
@@ -28,4 +29,42 @@ Node * linkedlist_jump(Node * h, int n)
         p = p->next;
     }
     return p;
+}
+
+Node * linkedlist_from_vector(const vector<int> & vec)
+{
+    Node * h = nullptr;
+
+    for(int i = vec.size()-1; i>=0; i--)
+    {
+        Node * t = (Node *)malloc(sizeof(Node));
+        t->next = h;
+        t->val = vec[i];
+        h = t;
+    }
+    return h;
+}
+
+Node * linkedlist_tail(Node * h)
+{
+    Node * p = h;
+
+    while((nullptr != p) && (nullptr != p->next))
+    {
+        p = p->next;
+    }
+
+    return p;
+}
+
+void linkedlist_print(Node * h)
+{
+    Node * p = h;
+
+    while(nullptr != p)
+    {
+        cout << p->val << " ";
+        p = p->next;
+    }
+    cout << endl;
 }
