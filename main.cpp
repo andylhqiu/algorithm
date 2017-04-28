@@ -4,6 +4,9 @@
 #include "add2numlinked/add_2_num_linked.h"
 #include "reverse_linkedlist/reverse_linkedlist.h"
 #include "SimpleBinarySearchTree/SimpleBinarySearchTree.h"
+#include "intersection_2linkedlist/intersection_2linkedlist.h"
+
+
 
 int main() {
     std::cout << "In ball throwing program." << std::endl;
@@ -23,6 +26,7 @@ int main() {
 
     //testDistBST();
 
+    test_intersection_2linkedlist();
 
     return 0;
 }

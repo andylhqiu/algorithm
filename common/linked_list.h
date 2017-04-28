@@ -13,8 +13,8 @@ struct Node{
     Node* next;
 };
 
-
-
+int linkedlist_len(Node * h);
+Node * linkedlist_jump(Node * h, int n);
 
 
 
