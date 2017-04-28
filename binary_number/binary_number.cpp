@@ -9,7 +9,7 @@
 
 
 
-
+/*计算正整数中二进制位为1的位数*/
 int num_of_1bit(uint n)
 {
     int num = 0;
