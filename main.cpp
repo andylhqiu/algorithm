@@ -5,7 +5,7 @@
 #include "reverse_linkedlist/reverse_linkedlist.h"
 #include "SimpleBinarySearchTree/SimpleBinarySearchTree.h"
 #include "intersection_2linkedlist/intersection_2linkedlist.h"
-
+#include "backwards_linkedlist/backwards_linkedlist.h"
 
 
 int main() {
@@ -27,6 +27,8 @@ int main() {
     //testDistBST();
 
     test_intersection_2linkedlist();
+
+    test_backwards_linkedlist();
 
     return 0;
 }
