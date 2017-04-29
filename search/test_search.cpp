@@ -31,11 +31,11 @@ bool  test_binary_search()
         }
         else
         {
-            cout << "target = " << it->first << ", expected ret = " << it->second <<", real ret = " << ret << endl;
+            cout << "success, target = " << it->first << ", expected ret = " << it->second <<", real ret = " << ret << endl;
         }
     }
 
-    cout <<"Successed ." << endl;
+    cout <<"All successed ." << endl;
     return true;
 }
 
