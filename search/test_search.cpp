@@ -20,6 +20,8 @@ bool  test_binary_search()
     cases[5] = 2;
     cases[19] = 10;
     cases[20] = -1;
+    cases[4] = -1;
+    cases[0] = -1;
 
     int ret = -1;
     for(map<int,int>::iterator it=cases.begin(); it != cases.end(); it++)
