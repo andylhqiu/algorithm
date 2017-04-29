@@ -10,6 +10,7 @@
 #include "reverse_btree/reverse_btree.h";
 #include "binary_number/binary_number.h"
 #include "sort/test_sort.h"
+#include "search/test_search.h"
 
 
 int main() {
@@ -41,5 +42,9 @@ int main() {
     test_binary_number();
 
     test_sort();
+
+    test_search();
+
+
     return 0;
 }
