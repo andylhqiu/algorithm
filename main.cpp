@@ -9,7 +9,7 @@
 #include "circle_linkedlist/circle_linkedlist.h"
 #include "reverse_btree/reverse_btree.h";
 #include "binary_number/binary_number.h"
-
+#include "sort/sort.h"
 
 
 int main() {
@@ -39,5 +39,7 @@ int main() {
     test_reverse_binarytree();
 
     test_binary_number();
+
+    test_sort();
     return 0;
 }
