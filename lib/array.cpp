@@ -2,9 +2,9 @@
 // Created by QiuLihua on 2017/4/29.
 //
 
-#include "array.h"
+#include "../common/array.h"
 
-#include "comm.h"
+#include "../common/comm.h"
 
 
 
