@@ -8,7 +8,7 @@
 #include "../common/comm.h"
 
 
-bool test_sort();
+void bubble(int * arr, int len);
 
 
 #endif //ALGORITHM_SORT_H
