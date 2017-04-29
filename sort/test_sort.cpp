@@ -18,7 +18,11 @@ bool test_bubble()
     int arr_sorted[] = {1,2,3,4,5,6,7,8,9};
     int arr[] = {9,8,7,6,5,4,3,2,1};
 
+    cout << "Expected result : ";
+    print_arr(arr_sorted, sizeof(arr_sorted)/ sizeof(int));
+
     bubble(arr, sizeof(arr)/sizeof(int));
+    cout << "Result : ";
     print_arr(arr, sizeof(arr)/sizeof(int));
 
     for(int i=0; i<sizeof(arr_sorted)/sizeof(int); i++)
