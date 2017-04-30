@@ -29,7 +29,7 @@ int main() {
     //test_add2num_linked();
 
     //
-    test_reverse2_linkedlist();
+    //test_reverse2_linkedlist();
 
     //testDistBST();
 

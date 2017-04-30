@@ -5,7 +5,7 @@
 #include "reverse_linkedlist.h"
 
 
-Node * reverse(Node * head)
+Node * reverse2(Node * head)
 {
     Node * p = head;
     Node * pre = head;
@@ -66,7 +66,7 @@ Node* reverse_linkedlist(Node * head, int m=0, int n=-1)
     }
     p1->next = nullptr;
 
-    h1 = reverse(h1);
+    h1 = reverse2(h1);
     h->next =h1;
 
     if(nullptr == tail)
@@ -87,7 +87,7 @@ Node* reverse_linkedlist(Node * head, int m=0, int n=-1)
 
 
 
-bool  test_reverse_linkedlist()
+bool  test_reverse2_linkedlist()
 {
     bool ret = false;
     Node * h = new Node();

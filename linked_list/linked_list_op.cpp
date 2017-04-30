@@ -8,7 +8,23 @@
 
 
 
+Node * reverse(Node * h)
+{
+    Node * p1 = NULL;
+    Node * p2 = h;
+    Node * p3 = NULL;
 
+    while((NULL != p2) && (NULL != p2->next))
+    {
+        p3 = p2->next;
+        p2->next = p1;
+        p1 = p2;
+        p2 = p3;
+    }
+    p2->next = p1;
+
+    return p2;
+}
 
 
 void rm_duplicate(Node * h)
