@@ -11,6 +11,7 @@
 #include "binary_number/binary_number.h"
 #include "sort/test_sort.h"
 #include "search/test_search.h"
+#include "array/test_array.h"
 
 
 int main() {
@@ -44,6 +45,8 @@ int main() {
     test_sort();
 
     test_search();
+
+    test_array();
 
 
     return 0;
