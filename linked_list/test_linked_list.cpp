@@ -26,7 +26,7 @@ bool test_rm_all_duplicate()
 {
     func_begin(__FUNCTION__);
 
-    vector<int> vec = {1,1,1,2,3,4,5,6,6,6,6,7,8};
+    vector<int> vec = {1,1,1,2,3,4,5,6,6,6,6,7,8,8,9};
     Node * h = linkedlist_from_vector(vec);
 
     linkedlist_print(h);
