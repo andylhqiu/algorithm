@@ -104,6 +104,29 @@ bool test_backwards_linkedlist()
     return true;
 }
 
+bool test_intersect_circle_linkedlist()
+{
+    bool bret = false;
+    func_begin(__FUNCTION__);
+
+    vector<int> vec = {1,2,3,4,5,6,7,8,9,10,11,12};
+    Node * h = linkedlist_from_vector(vec);
+
+    linkedlist_print(h);
+
+    Node * pt = linkedlist_tail(h);
+    Node * pinter = linkedlist_jump(h, 0);
+    pt->next = pinter;
+    Node * pr = intersect_circle_linkedlist(h);
+
+    bret = pr == pinter;
+    cout << "pinter = " << pinter->val << endl;
+    cout << "pr  = " << pr->val << endl;
+
+
+    return bret;
+}
+
 bool test_rm_duplicate()
 {
     func_begin(__FUNCTION__);
@@ -179,6 +202,7 @@ bool  test_linked_list()
     test_reverse_linkedlist();
     test_intersection_2linkedlist();
     test_backwards_linkedlist();
+    test_intersect_circle_linkedlist();
     test_rm_duplicate();
     test_rm_all_duplicate();
     test_rotate_list_at_k();

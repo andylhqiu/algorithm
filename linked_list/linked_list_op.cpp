@@ -105,6 +105,30 @@ Node * backwards_linkedlist(Node * h, int n)
     return bp;
 }
 
+Node * intersect_circle_linkedlist(Node *h)
+{
+    Node * pinter = nullptr;
+    Node * p = h;
+
+    while((nullptr != p) && (nullptr != p->next))
+    {
+        Node * p0 = h;
+        while(p0 != p)
+        {
+            if(p0 == p->next)
+            {
+                pinter = p->next;
+                return pinter;
+            }
+            p0 = p0->next;
+        }
+        p = p->next;
+    }
+
+
+    return pinter;
+}
+
 void rm_duplicate(Node * h)
 {
     Node * p = h;
