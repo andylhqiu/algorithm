@@ -16,6 +16,7 @@
 
 
 void rm_duplicate(Node * h);
+Node * rm_all_duplicate(Node *h);
 
 
 

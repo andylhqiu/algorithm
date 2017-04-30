@@ -18,6 +18,7 @@ Node * linkedlist_jump(Node * h, int n);
 Node * linkedlist_from_vector(const vector<int> & vec);
 Node * linkedlist_tail(Node * h);
 void linkedlist_print(Node * h);
+void linkedlist_destroy(Node *h);
 
 
 

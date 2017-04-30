@@ -68,3 +68,16 @@ void linkedlist_print(Node * h)
     }
     cout << endl;
 }
+
+void linkedlist_destroy(Node *h)
+{
+    Node * p = h;
+
+    while(nullptr != h)
+    {
+        p = h;
+        h = h->next;
+        delete p;
+    }
+
+}

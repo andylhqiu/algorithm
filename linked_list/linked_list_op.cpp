@@ -39,3 +39,55 @@ void rm_duplicate(Node * h)
         }
     }
 }
+
+
+Node * rm_all_duplicate(Node *h)
+{
+    Node * p = new(Node);
+    Node * p1 = h;
+    Node * p2 = p1;
+    p->val = 0;
+    p->next = p1;
+    Node * pre = p;
+
+    if(nullptr == h)
+    {
+        cout << "Parameter error ! h = nullptr" << endl;
+        return nullptr;
+    }
+
+    int num = 0;
+    int n = 0;
+    while(nullptr != p2)
+    {
+        while((nullptr != p2) && (nullptr != p2->next) && (p2->next->val == p1->val))
+        {
+            n++;
+            p2 = p2->next;
+        }
+        if(n > 0)
+        {
+            cout << "Duplicate nodes found . value = "<< p1->val << ", num = " << n+1 << endl;
+            Node * pt = p2->next;
+            p2->next = nullptr;
+            linkedlist_destroy(p1);
+            p1 = pt;
+            p2 = p1;
+            pre->next = p1;
+            num += n;
+            n = 0;
+            continue;
+        }
+        pre = p1;
+        p1 = p1->next;
+        p2 = p1;
+        //pre = pre->next;
+
+    }
+    pre = p;
+    delete pre;
+    p = p->next;
+
+    cout << "Removed nodes num = " << num <<endl;
+    return p;
+}
