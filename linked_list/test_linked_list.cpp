@@ -48,6 +48,20 @@ void test_rotate_list_at_k()
     linkedlist_print(h);
 }
 
+
+bool test_swap_nodes_in_pairs()
+{
+    func_begin(__FUNCTION__);
+
+    vector<int> vec = {1,2,3,4,5,6,7,8,9};
+    Node *h = linkedlist_from_vector(vec);
+
+    linkedlist_print(h);
+    h = swap_nodes_in_pairs(h);
+    linkedlist_print(h);
+
+    return true;
+}
 bool  test_linked_list()
 {
     func_begin(__FUNCTION__);
@@ -55,6 +69,7 @@ bool  test_linked_list()
     test_rm_duplicate();
     test_rm_all_duplicate();
     test_rotate_list_at_k();
+    test_swap_nodes_in_pairs();
 
     return false;
 }

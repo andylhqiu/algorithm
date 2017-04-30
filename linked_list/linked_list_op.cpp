@@ -115,3 +115,37 @@ Node * rotate_list_at_k(Node *h, uint k)
     return p;
 
 }
+/*
+ * Given a linked list, swap every two adjacent nodes and return its head.
+For example, Given 1->2->3->4, you should return the list as 2->1->4->3.
+Your algorithm should use only constant space. You may not modify the values in the list, only nodes
+itself can be changed.
+ * */
+Node * swap_nodes_in_pairs(Node *h)
+{
+    Node * p = new(Node);
+    p->val = 0;
+    p->next = h;
+
+    Node * p1 = h;
+    Node * p2 = nullptr;
+    Node * pre = p;
+    Node * pt = nullptr;
+
+    while((nullptr != p1) && (nullptr != p1->next))
+    {
+        p2 = p1->next;
+        pt = p2->next;
+        p2->next = p1;
+        pre->next = p2;
+        p1->next = pt;
+        pre = p1;
+        p1 = pt;
+
+    }
+    pt = p;
+    delete pt;
+    p = p->next;
+
+    return p;
+}
