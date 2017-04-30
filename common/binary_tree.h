@@ -15,4 +15,6 @@ typedef struct  BTNode
 }BTNode, * BTree;
 
 
+bool binary_tree_equal(BTree t1, BTree t2);
+
 #endif //ALGORITHM_BINARY_TREE_H
