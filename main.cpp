@@ -12,6 +12,7 @@
 #include "sort/test_sort.h"
 #include "search/test_search.h"
 #include "array/test_array.h"
+#include "linked_list/test_linked_list.h"
 
 
 int main() {
@@ -48,6 +49,7 @@ int main() {
 
     test_array();
 
+    test_linked_list();
 
     return 0;
 }
