@@ -14,6 +14,11 @@ Node * reverse(Node * h)
     Node * p2 = h;
     Node * p3 = NULL;
 
+    if((nullptr == p2) || (nullptr == p2->next))
+    {
+        return p2;
+    }
+
     while((NULL != p2) && (NULL != p2->next))
     {
         p3 = p2->next;
@@ -165,3 +170,55 @@ Node * swap_nodes_in_pairs(Node *h)
 
     return p;
 }
+
+/*
+ * GivenasinglylinkedlistL : L0 → L1 → ··· → Ln−1 → Ln,reorderitto: L0 → Ln → L1 → Ln−1 →L2 →Ln−2 →···
+You must do this in-place without altering the nodes’ values. For example, Given {1,2,3,4}, reorder it to {1,4,2,3}.
+ * */
+Node * reorder_list(Node *h)
+{
+    Node * p1 = h;
+    int len = linkedlist_len(h);
+    Node * pm = linkedlist_jump(h, ((len+1)/2 - 1));
+    Node * p2 = pm->next;
+    pm->next = nullptr;
+    linkedlist_print(p2);
+
+    p2 = reverse(p2);
+    linkedlist_print(p2);
+
+    Node * pt1 = nullptr;
+    Node * pt2 = nullptr;
+    while(nullptr != p2)
+    {
+        pt1 = p1->next;
+        pt2 = p2->next;
+        p2->next = p1->next;
+        p1->next = p2;
+        p1 = pt1;
+        p2 = pt2;
+    }
+
+    return h;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

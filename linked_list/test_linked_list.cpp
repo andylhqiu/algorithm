@@ -95,6 +95,21 @@ bool test_swap_nodes_in_pairs()
 
     return true;
 }
+
+bool  test_reorder_list()
+{
+    func_begin(__FUNCTION__);
+
+    vector<int> vec = {1,2,3,4,5,6,7,8,9};
+    Node * h = linkedlist_from_vector(vec);
+
+    linkedlist_print(h);
+    h = reorder_list(h);
+    linkedlist_print(h);
+
+    return true;
+}
+
 bool  test_linked_list()
 {
     func_begin(__FUNCTION__);
@@ -104,6 +119,7 @@ bool  test_linked_list()
     test_rm_all_duplicate();
     test_rotate_list_at_k();
     test_swap_nodes_in_pairs();
+    test_reorder_list();
 
     return false;
 }
