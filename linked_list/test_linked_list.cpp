@@ -36,6 +36,17 @@ bool test_rm_all_duplicate()
     return false;
 }
 
+void test_rotate_list_at_k()
+{
+    func_begin(__FUNCTION__);
+
+    vector<int> vec = {1,2,3,4,5,6,7,8,9};
+    Node *h = linkedlist_from_vector(vec);
+
+    linkedlist_print(h);
+    h = rotate_list_at_k(h, 5);
+    linkedlist_print(h);
+}
 
 bool  test_linked_list()
 {
@@ -43,6 +54,7 @@ bool  test_linked_list()
 
     test_rm_duplicate();
     test_rm_all_duplicate();
+    test_rotate_list_at_k();
 
     return false;
 }

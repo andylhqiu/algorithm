@@ -91,3 +91,27 @@ Node * rm_all_duplicate(Node *h)
     cout << "Removed nodes num = " << num <<endl;
     return p;
 }
+
+/*从单链表的某个节点左右翻转单链表，该节点为头节点
+ * k: 非负*/
+Node * rotate_list_at_k(Node *h, uint k)
+{
+    int len = linkedlist_len(h);
+    Node * p = h;
+    Node * pre = nullptr;
+    Node * tail = linkedlist_jump(h, len-1);
+
+    k = k%len;
+
+    if(k <= 0)
+    {
+        return p;
+    }
+    pre = linkedlist_jump(h, k-1);
+    tail->next = h;
+    p = pre->next;
+    pre->next = nullptr;
+
+    return p;
+
+}

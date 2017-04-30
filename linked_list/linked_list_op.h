@@ -17,6 +17,7 @@
 
 void rm_duplicate(Node * h);
 Node * rm_all_duplicate(Node *h);
+Node * rotate_list_at_k(Node *h, uint k);
 
 
 
