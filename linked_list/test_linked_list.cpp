@@ -10,9 +10,7 @@
 
 
 
-
-
-bool  test_linked_list()
+bool test_rm_duplicate()
 {
     func_begin(__FUNCTION__);
     vector<int> vec = {1,1,1,2,3,4,5,6,6,6,6,7,8};
@@ -21,6 +19,15 @@ bool  test_linked_list()
     linkedlist_print(h);
     rm_duplicate(h);
     linkedlist_print(h);
+
+}
+
+
+bool  test_linked_list()
+{
+    func_begin(__FUNCTION__);
+
+    test_rm_duplicate();
 
     return false;
 }
