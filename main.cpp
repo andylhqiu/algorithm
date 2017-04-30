@@ -33,8 +33,6 @@ int main() {
 
     //testDistBST();
 
-    test_intersection_2linkedlist();
-
     test_backwards_linkedlist();
 
     test_intersect_circle_linkedlist();

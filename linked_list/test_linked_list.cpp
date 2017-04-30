@@ -43,6 +43,42 @@ bool  test_reverse_linkedlist()
     return ret;
 }
 
+bool test_intersection_2linkedlist()
+{
+    func_begin(__FUNCTION__);
+
+    vector<int> vec1 = {1,2,3,4};
+    vector<int> vec2 = {4,5,6};
+    vector<int> vec3 = {11,12,13};
+
+    Node *h1 = linkedlist_from_vector(vec1);
+    Node *h2 = linkedlist_from_vector(vec2);
+    Node *h3 = linkedlist_from_vector(vec3);
+
+    linkedlist_print(h1);
+    linkedlist_print(h2);
+
+    Node *t1 = linkedlist_tail(h1);
+    Node *t2 = linkedlist_tail(h2);
+    if(nullptr != t1)
+    {
+        t1->next = h3;
+    }
+    if(nullptr != t2)
+    {
+        t2->next = h3;
+    }
+    linkedlist_print(h1);
+    linkedlist_print(h2);
+
+    Node * pinter = intersection_2linkedlist(h1, h2);
+
+    linkedlist_print(pinter);
+
+    cout << "In test_intersection_2linkedlist() end." << endl;
+    return false;
+}
+
 bool test_rm_duplicate()
 {
     func_begin(__FUNCTION__);
@@ -115,11 +151,13 @@ bool  test_linked_list()
     func_begin(__FUNCTION__);
 
     test_reverse_linkedlist();
+    test_intersection_2linkedlist();
     test_rm_duplicate();
     test_rm_all_duplicate();
     test_rotate_list_at_k();
     test_swap_nodes_in_pairs();
     test_reorder_list();
+
 
     return false;
 }
