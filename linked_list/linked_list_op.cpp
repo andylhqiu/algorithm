@@ -71,6 +71,40 @@ Node * intersection_2linkedlist(Node * h1, Node * h2)
     return inter;
 }
 
+Node * backwards_linkedlist(Node * h, int n)
+{
+    Node * p = h;
+    Node * bp = nullptr;
+
+    if(n < 1)
+    {
+        cout << "parameter n error ! too little n = " << n <<endl;
+        return bp;
+    }
+
+    int i = 0;
+    while((i < n-1) && (nullptr != p) && (nullptr != p->next))
+    {
+        i++;
+        p = p->next;
+    }
+
+    if(i < n-1)
+    {
+        cout << "parameter n error ! too big n = " << n <<endl;
+        return bp;
+    }
+
+    bp = h;
+    while(nullptr != p->next)
+    {
+        p = p->next;
+        bp = bp->next;
+    }
+
+    return bp;
+}
+
 void rm_duplicate(Node * h)
 {
     Node * p = h;

@@ -4,7 +4,6 @@
 #include "add2numlinked/add_2_num_linked.h"
 #include "reverse_linkedlist/reverse_linkedlist.h"
 #include "SimpleBinarySearchTree/SimpleBinarySearchTree.h"
-#include "backwards_linkedlist/backwards_linkedlist.h"
 #include "circle_linkedlist/circle_linkedlist.h"
 #include "reverse_btree/reverse_btree.h"
 #include "binary_number/binary_number.h"
@@ -32,7 +31,6 @@ int main() {
 
     //testDistBST();
 
-    test_backwards_linkedlist();
 
     test_intersect_circle_linkedlist();
 

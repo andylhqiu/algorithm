@@ -79,6 +79,31 @@ bool test_intersection_2linkedlist()
     return false;
 }
 
+bool test_backwards_linkedlist()
+{
+    func_begin(__FUNCTION__);
+    vector<int> vec = {1,2,3,4,5,6,7,8,9};
+    Node * h = linkedlist_from_vector(vec);
+    linkedlist_print(h);
+
+    Node * bp = backwards_linkedlist(h, 3);
+    linkedlist_print(bp);
+
+    bp = backwards_linkedlist(h, 1);
+    linkedlist_print(bp);
+
+    bp = backwards_linkedlist(h, 0);
+    linkedlist_print(bp);
+
+    bp = backwards_linkedlist(h, 20);
+    linkedlist_print(bp);
+
+    bp = backwards_linkedlist(h, 9);
+    linkedlist_print(bp);
+
+    return true;
+}
+
 bool test_rm_duplicate()
 {
     func_begin(__FUNCTION__);
@@ -89,6 +114,7 @@ bool test_rm_duplicate()
     rm_duplicate(h);
     linkedlist_print(h);
 
+    return true;
 }
 
 bool test_rm_all_duplicate()
@@ -152,6 +178,7 @@ bool  test_linked_list()
 
     test_reverse_linkedlist();
     test_intersection_2linkedlist();
+    test_backwards_linkedlist();
     test_rm_duplicate();
     test_rm_all_duplicate();
     test_rotate_list_at_k();

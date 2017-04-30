@@ -16,6 +16,7 @@
 
 Node * reverse(Node * h);
 Node * intersection_2linkedlist(Node * h1, Node * h2);
+Node * backwards_linkedlist(Node * h, int n);
 void rm_duplicate(Node * h);
 Node * rm_all_duplicate(Node *h);
 Node * rotate_list_at_k(Node *h, uint k);
