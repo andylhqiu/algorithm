@@ -3,7 +3,13 @@
 //
 
 #include "../common/binary_tree.h"
+#include "../common/comm.h"
 
+BTree binary_tree_from_vector(const vector<int> & v)
+{
+
+    return nullptr;
+}
 
 
 bool binary_tree_equal(BTree t1, BTree t2)
