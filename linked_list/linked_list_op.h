@@ -20,7 +20,7 @@ Node * backwards_linkedlist(Node * h, int n);
 Node * intersect_circle_linkedlist(Node *h);
 void rm_duplicate(Node * h);
 Node * rm_all_duplicate(Node *h);
-Node * rotate_list_at_k(Node *h, uint k);
+Node * rotate_list_at_k(Node *h, unsigned int k);
 Node * swap_nodes_in_pairs(Node *h);
 Node * reorder_list(Node *h);
 

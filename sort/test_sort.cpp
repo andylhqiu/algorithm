@@ -41,4 +41,5 @@ bool test_bubble()
 bool test_sort()
 {
     test_bubble();
+    return true;
 }

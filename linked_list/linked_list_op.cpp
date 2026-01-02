@@ -212,7 +212,7 @@ Node * rm_all_duplicate(Node *h)
 
 /*从单链表的某个节点左右翻转单链表，该节点为头节点
  * k: 非负*/
-Node * rotate_list_at_k(Node *h, uint k)
+Node * rotate_list_at_k(Node *h, unsigned int k)
 {
     int len = linkedlist_len(h);
     Node * p = h;
