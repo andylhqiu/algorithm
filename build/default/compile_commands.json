@@ -1,0 +1,122 @@
+[
+{
+  "directory": "/Users/qiulihua/git/my/algorithm/build/default",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -std=gnu++11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -o CMakeFiles/algorithm.dir/main.cpp.o -c /Users/qiulihua/git/my/algorithm/main.cpp",
+  "file": "/Users/qiulihua/git/my/algorithm/main.cpp",
+  "output": "CMakeFiles/algorithm.dir/main.cpp.o"
+},
+{
+  "directory": "/Users/qiulihua/git/my/algorithm/build/default",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -std=gnu++11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -o CMakeFiles/algorithm.dir/ballthrow/ballthrow.cpp.o -c /Users/qiulihua/git/my/algorithm/ballthrow/ballthrow.cpp",
+  "file": "/Users/qiulihua/git/my/algorithm/ballthrow/ballthrow.cpp",
+  "output": "CMakeFiles/algorithm.dir/ballthrow/ballthrow.cpp.o"
+},
+{
+  "directory": "/Users/qiulihua/git/my/algorithm/build/default",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -std=gnu++11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -o CMakeFiles/algorithm.dir/add2numlinked/add_2_num_linked.cpp.o -c /Users/qiulihua/git/my/algorithm/add2numlinked/add_2_num_linked.cpp",
+  "file": "/Users/qiulihua/git/my/algorithm/add2numlinked/add_2_num_linked.cpp",
+  "output": "CMakeFiles/algorithm.dir/add2numlinked/add_2_num_linked.cpp.o"
+},
+{
+  "directory": "/Users/qiulihua/git/my/algorithm/build/default",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -std=gnu++11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -o CMakeFiles/algorithm.dir/reverse_linkedlist/reverse_linkedlist.cpp.o -c /Users/qiulihua/git/my/algorithm/reverse_linkedlist/reverse_linkedlist.cpp",
+  "file": "/Users/qiulihua/git/my/algorithm/reverse_linkedlist/reverse_linkedlist.cpp",
+  "output": "CMakeFiles/algorithm.dir/reverse_linkedlist/reverse_linkedlist.cpp.o"
+},
+{
+  "directory": "/Users/qiulihua/git/my/algorithm/build/default",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -std=gnu++11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -o CMakeFiles/algorithm.dir/SimpleBinarySearchTree/SimpleBinarySearchTree.cpp.o -c /Users/qiulihua/git/my/algorithm/SimpleBinarySearchTree/SimpleBinarySearchTree.cpp",
+  "file": "/Users/qiulihua/git/my/algorithm/SimpleBinarySearchTree/SimpleBinarySearchTree.cpp",
+  "output": "CMakeFiles/algorithm.dir/SimpleBinarySearchTree/SimpleBinarySearchTree.cpp.o"
+},
+{
+  "directory": "/Users/qiulihua/git/my/algorithm/build/default",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -std=gnu++11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -o CMakeFiles/algorithm.dir/lib/linked_list.cpp.o -c /Users/qiulihua/git/my/algorithm/lib/linked_list.cpp",
+  "file": "/Users/qiulihua/git/my/algorithm/lib/linked_list.cpp",
+  "output": "CMakeFiles/algorithm.dir/lib/linked_list.cpp.o"
+},
+{
+  "directory": "/Users/qiulihua/git/my/algorithm/build/default",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -std=gnu++11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -o CMakeFiles/algorithm.dir/reverse_btree/reverse_btree.cpp.o -c /Users/qiulihua/git/my/algorithm/reverse_btree/reverse_btree.cpp",
+  "file": "/Users/qiulihua/git/my/algorithm/reverse_btree/reverse_btree.cpp",
+  "output": "CMakeFiles/algorithm.dir/reverse_btree/reverse_btree.cpp.o"
+},
+{
+  "directory": "/Users/qiulihua/git/my/algorithm/build/default",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -std=gnu++11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -o CMakeFiles/algorithm.dir/lib/binary_tree.cpp.o -c /Users/qiulihua/git/my/algorithm/lib/binary_tree.cpp",
+  "file": "/Users/qiulihua/git/my/algorithm/lib/binary_tree.cpp",
+  "output": "CMakeFiles/algorithm.dir/lib/binary_tree.cpp.o"
+},
+{
+  "directory": "/Users/qiulihua/git/my/algorithm/build/default",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -std=gnu++11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -o CMakeFiles/algorithm.dir/strings/strings.cpp.o -c /Users/qiulihua/git/my/algorithm/strings/strings.cpp",
+  "file": "/Users/qiulihua/git/my/algorithm/strings/strings.cpp",
+  "output": "CMakeFiles/algorithm.dir/strings/strings.cpp.o"
+},
+{
+  "directory": "/Users/qiulihua/git/my/algorithm/build/default",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -std=gnu++11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -o CMakeFiles/algorithm.dir/binary_number/binary_number.cpp.o -c /Users/qiulihua/git/my/algorithm/binary_number/binary_number.cpp",
+  "file": "/Users/qiulihua/git/my/algorithm/binary_number/binary_number.cpp",
+  "output": "CMakeFiles/algorithm.dir/binary_number/binary_number.cpp.o"
+},
+{
+  "directory": "/Users/qiulihua/git/my/algorithm/build/default",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -std=gnu++11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -o CMakeFiles/algorithm.dir/sort/sort.cpp.o -c /Users/qiulihua/git/my/algorithm/sort/sort.cpp",
+  "file": "/Users/qiulihua/git/my/algorithm/sort/sort.cpp",
+  "output": "CMakeFiles/algorithm.dir/sort/sort.cpp.o"
+},
+{
+  "directory": "/Users/qiulihua/git/my/algorithm/build/default",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -std=gnu++11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -o CMakeFiles/algorithm.dir/lib/array.cpp.o -c /Users/qiulihua/git/my/algorithm/lib/array.cpp",
+  "file": "/Users/qiulihua/git/my/algorithm/lib/array.cpp",
+  "output": "CMakeFiles/algorithm.dir/lib/array.cpp.o"
+},
+{
+  "directory": "/Users/qiulihua/git/my/algorithm/build/default",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -std=gnu++11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -o CMakeFiles/algorithm.dir/sort/test_sort.cpp.o -c /Users/qiulihua/git/my/algorithm/sort/test_sort.cpp",
+  "file": "/Users/qiulihua/git/my/algorithm/sort/test_sort.cpp",
+  "output": "CMakeFiles/algorithm.dir/sort/test_sort.cpp.o"
+},
+{
+  "directory": "/Users/qiulihua/git/my/algorithm/build/default",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -std=gnu++11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -o CMakeFiles/algorithm.dir/search/search.cpp.o -c /Users/qiulihua/git/my/algorithm/search/search.cpp",
+  "file": "/Users/qiulihua/git/my/algorithm/search/search.cpp",
+  "output": "CMakeFiles/algorithm.dir/search/search.cpp.o"
+},
+{
+  "directory": "/Users/qiulihua/git/my/algorithm/build/default",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -std=gnu++11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -o CMakeFiles/algorithm.dir/search/test_search.cpp.o -c /Users/qiulihua/git/my/algorithm/search/test_search.cpp",
+  "file": "/Users/qiulihua/git/my/algorithm/search/test_search.cpp",
+  "output": "CMakeFiles/algorithm.dir/search/test_search.cpp.o"
+},
+{
+  "directory": "/Users/qiulihua/git/my/algorithm/build/default",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -std=gnu++11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -o CMakeFiles/algorithm.dir/array/array_op.cpp.o -c /Users/qiulihua/git/my/algorithm/array/array_op.cpp",
+  "file": "/Users/qiulihua/git/my/algorithm/array/array_op.cpp",
+  "output": "CMakeFiles/algorithm.dir/array/array_op.cpp.o"
+},
+{
+  "directory": "/Users/qiulihua/git/my/algorithm/build/default",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -std=gnu++11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -o CMakeFiles/algorithm.dir/array/test_array.cpp.o -c /Users/qiulihua/git/my/algorithm/array/test_array.cpp",
+  "file": "/Users/qiulihua/git/my/algorithm/array/test_array.cpp",
+  "output": "CMakeFiles/algorithm.dir/array/test_array.cpp.o"
+},
+{
+  "directory": "/Users/qiulihua/git/my/algorithm/build/default",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -std=gnu++11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -o CMakeFiles/algorithm.dir/linked_list/linked_list_op.cpp.o -c /Users/qiulihua/git/my/algorithm/linked_list/linked_list_op.cpp",
+  "file": "/Users/qiulihua/git/my/algorithm/linked_list/linked_list_op.cpp",
+  "output": "CMakeFiles/algorithm.dir/linked_list/linked_list_op.cpp.o"
+},
+{
+  "directory": "/Users/qiulihua/git/my/algorithm/build/default",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -std=gnu++11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -o CMakeFiles/algorithm.dir/linked_list/test_linked_list.cpp.o -c /Users/qiulihua/git/my/algorithm/linked_list/test_linked_list.cpp",
+  "file": "/Users/qiulihua/git/my/algorithm/linked_list/test_linked_list.cpp",
+  "output": "CMakeFiles/algorithm.dir/linked_list/test_linked_list.cpp.o"
+},
+{
+  "directory": "/Users/qiulihua/git/my/algorithm/build/default",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -std=gnu++11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -o CMakeFiles/algorithm.dir/test.cpp.o -c /Users/qiulihua/git/my/algorithm/test.cpp",
+  "file": "/Users/qiulihua/git/my/algorithm/test.cpp",
+  "output": "CMakeFiles/algorithm.dir/test.cpp.o"
+}
+]

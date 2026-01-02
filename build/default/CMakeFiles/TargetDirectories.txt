@@ -1,0 +1,3 @@
+/Users/qiulihua/git/my/algorithm/build/default/CMakeFiles/algorithm.dir
+/Users/qiulihua/git/my/algorithm/build/default/CMakeFiles/edit_cache.dir
+/Users/qiulihua/git/my/algorithm/build/default/CMakeFiles/rebuild_cache.dir
